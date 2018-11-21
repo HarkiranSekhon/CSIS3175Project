@@ -42,6 +42,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng douglasCollege = new LatLng(49.2035681, -122.9126894);
         mMap.addMarker(new MarkerOptions().position(douglasCollege).title("Douglas College"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(douglasCollege));
-        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(douglasCollege, 12), 3000, null);
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(douglasCollege, 12), 200, null);
     }
 }
